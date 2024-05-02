@@ -3,9 +3,9 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const config = require("./config");
-const authRoutes = require("./routes/authRoutes");
-const trainRoutes = require("./routes/trainRoutes");
-const bookingRoutes = require("./routes/bookingRoutes");
+const authRoutes = require("./src/routes/authRoutes");
+const trainRoutes = require("./src/routes/trainRoutes");
+const bookingRoutes = require("./src/routes/bookingRoutes");
 const sequelize = require("./config/database");
 
 const app = express();
