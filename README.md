@@ -1,0 +1,20 @@
+Project Structure
+
+- /src
+  - controllers/
+    - authController.js
+    - trainController.js
+    - bookingController.js
+  - middleware/
+    - authMiddleware.js
+    - apiKeyMiddleware.js
+  - models/
+    - User.js
+    - Train.js
+    - Booking.js
+  - routes/
+    - authRoutes.js
+    - trainRoutes.js
+    - bookingRoutes.js
+  - app.js
+  - config.js
